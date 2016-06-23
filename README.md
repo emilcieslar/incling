@@ -27,7 +27,7 @@
     python populate_incling.py
     ```
 
-5. Run the server and visit API root on http://127.0.0.1:8000/incling/
+5. Run the server and visit API root on [http://127.0.0.1:8000/incling/](http://127.0.0.1:8000/incling/)
 
     ```
     python manage.py runserver
@@ -40,7 +40,7 @@
     npm install
     ```
 
-7. Run the front-end server using the command below and visit it on http://localhost:3000/
+7. Run the front-end server using the command below and visit it on [http://localhost:3000/](http://localhost:3000/)
 
     ```
     npm run start

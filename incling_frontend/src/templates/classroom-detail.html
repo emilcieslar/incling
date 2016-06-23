@@ -1,0 +1,7 @@
+<h2>{{ClassroomCtrl.classrooms[ClassroomCtrl.classroom()].name}}</h2>
+
+<ul class="o-list">
+    <li class="o-list__item" ng-repeat="student in ClassroomCtrl.classrooms[ClassroomCtrl.classroom()].students">
+        {{student.firstname}} {{student.lastname}}
+    </li>
+</ul>

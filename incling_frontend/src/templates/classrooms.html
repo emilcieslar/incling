@@ -1,0 +1,31 @@
+<h1 class="text-center">Classrooms</h1>
+
+<div class="flex-container">
+
+    <!-- #################################### LIST OF CLASSROOMS -->
+    <aside class="flex-item">
+
+        <h2>List of classrooms</h2>
+
+        <ul class="o-list">
+            <li class="o-list__item c-nav__item" ui-sref-active="is-active" ng-repeat="classroom in ClassroomCtrl.classrooms track by $index">
+                <a class="c-nav__link" ui-sref="classrooms.detail({ classroomId: $index })">{{classroom.name}}</a>
+            </li>
+        </ul>
+
+    </aside>
+
+
+    <!-- #################################### CLASSROOM DETAIL -->
+    <main class="flex-item" ui-view ng-show="ClassroomCtrl.classroom()"></main>
+
+
+    <!-- #################################### IN CASE NO CLASSROOM IS ACTIVE -->
+    <main class="flex-item" ng-hide="ClassroomCtrl.classroom()">
+        <h2>Chooce from classrooms</h2>
+        <p>
+            Make your choice from the classrooms list provided on the left pane.
+        </p>
+    </main>
+
+</div><!-- flex-container -->

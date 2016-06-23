@@ -1,0 +1,28 @@
+$c-nav-item-bg-color:              #f1f1f1 !default;
+$c-nav-item-bottom-border-color:   #d1d1d1 !default;
+$c-nav-item-active-bg:             #d1d1d1 !default;
+$c-nav-link-padding:               10px !default;
+$c-nav-link-color:                 black !default;
+
+.c-nav {
+
+}
+
+    .c-nav__item {
+        border-bottom: 1px solid $c-nav-item-bottom-border-color;
+        background: $c-nav-item-bg-color;
+        padding: 0;
+
+        &.is-active {
+            background: $c-nav-item-active-bg;
+            font-weight: bold;
+        }
+    }
+
+    .c-nav__link {
+        text-decoration: none;
+        color: $c-nav-link-color;
+        padding: $c-nav-link-padding;
+        width: 100%;
+        display: inline-block;
+    }

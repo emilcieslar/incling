@@ -18,8 +18,7 @@
     "angular-ui-router": "^0.2.0"
   },
   "scripts": {
-    "start": "gulp && gulp watch",
-    "start-python": "source virtualenvwrapper.sh && workon incling && python ../manage.py runserver | gulp watch"
+    "start": "gulp && gulp watch"
   },
   "repository": {
     "type": "git",

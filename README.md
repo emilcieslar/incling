@@ -40,7 +40,7 @@
     npm install
     ```
 
-7. Run the front-end test server
+7. Run the front-end server using the command below and visit it on http://localhost:3000/
 
     ```
     npm run start

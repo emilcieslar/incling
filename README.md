@@ -50,7 +50,7 @@
 ## Notes
 
 ### Bootstrap
-I decided not to use Bootstrap as I believe that would be an overkill for such small project. Also I felt like I could show more by using advanced techniques with SCSS and BEM methodology. I believe these front-end techniques are very useful when it comes to larger apps: [csswizardry - BEM](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/) and also [namespacing with BEM](http://csswizardry.com/2015/08/bemit-taking-the-bem-naming-convention-a-step-further/)
+I decided not to use Bootstrap as I believe that would be an overkill for such small project. Also I felt like I could show more by using advanced techniques with SCSS and BEM methodology. I believe these front-end techniques are very useful when it comes to larger apps: [csswizardry - BEM](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/) and also [namespacing with BEM](http://csswizardry.com/2015/08/bemit-taking-the-bem-naming-convention-a-step-further/) In case you'd still require the bootstrapped version of this app, just let me know and I'll reengineer the code.
 
 ### Separating Backend and Frontend
 I could include the frontend part within the django project as it is suggested [in this article](http://blog.kevinastone.com/getting-started-with-django-rest-framework-and-angularjs.html). However I thought in this case it will be cleaner and more readable just to separate the frontend completely from the backend. That's also a reason why I had to install one more dependency, which was django-cors-headers to allow different hosts interact with the API.
